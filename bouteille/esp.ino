@@ -8,8 +8,6 @@ SoftwareSerial s(3,1);
 //co internet
 const char * SSID = "WIFI-ETUDIANT";
 const char * PASSWORD = "NextUstud3nt";
-// const char * SSID = "Bbox-12DB1BE2";
-// const char * PASSWORD = "WWCVi7esaNM26a591c";
 
 //appel server
 String url_webhook_objRequestBottle = "https://la-forge-des-enigmes.capucinemad.com/api/wine_games/1/objRequestBottle";
